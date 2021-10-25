@@ -1,0 +1,16 @@
+.vscode
+.idea
+/node_modules/
+/storage/logs/
+/storage/temp/
+/dist/
+.env
+package-lock.json
+yarn.lock
+.yalc
+yalc.lock
+/yarn-error.log
+/assets/
+/src/Meta/ConfigContracts/
+/src/Meta/
+
