@@ -1,35 +1,25 @@
-<h1 align="center">Hi 👋, I'm Sam or iDevelopthings</h1>
-<h3 align="center">Self taught full-stack googler. Jokes aside, full-stack web dev. I stream on Twitch, build broken websites that will eventually work and think that I'm funny.</h3>
-
-<h4 align="center">
-I work at <a href="https://wearekk.com" target="_blank">Killing Kittens</a>, have built some cool projects like <a href="https://github.com/envuso" target="_blank">Envuso</a> and <a href="https://chatreward.tv/" target="_blank">ChatReward</a>.
-</h4>
-
-<p align="center">  
-  <img src="https://wakatime.com/badge/user/e3554835-2c7c-4e57-a5b0-6c34501aa484.svg" alt="idevelopthings" />
-  <img src="https://komarev.com/ghpvc/?username=idevelopthings&label=Profile%20views&color=0e75b6&style=flat" alt="idevelopthings" />
-  <a href="https://twitter.com/itsmrsammeh" target="blank"><img src="https://img.shields.io/twitter/follow/itsmrsammeh?logo=twitter&style=for-the-badge" alt="itsmrsammeh" /></a>  
+<p align="center">
+	<a href="https://envuso.com" target="_blank"><img src="https://envuso.com/assets/mid.png" width="300"></a>
 </p>
 
-<p align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=idevelopthings&show_icons=true&locale=en&layout=compact&hide=c%23" alt="idevelopthings" /></p>
-<p align="left"><img src="https://github-readme-streak-stats.herokuapp.com/?user=idevelopthings&" alt="idevelopthings" /></p>
-<p align="left"><img src="https://github-readme-stats.vercel.app/api?username=idevelopthings&show_icons=true&locale=en" alt="idevelopthings" /></p>
-
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/itsmrsammeh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="itsmrsammeh" height="30" width="40" /></a>
-<a href="https://instagram.com/idevelopthings" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="idevelopthings" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/idevelopthings" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="idevelopthings" height="30" width="40" /></a>
+<p align="center">
+	<img alt="npm (scoped)" src="https://img.shields.io/npm/v/@envuso/framework?logoColor=blueviolet">	
+	<img alt="GitHub" src="https://img.shields.io/github/license/Envuso/framework">
+	<img alt="Wakatime" src="https://wakatime.com/badge/github/Envuso/framework.svg">
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://golang.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://svelte.dev" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="svelte" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> </p>
+# Warning:
+Envuso is currently a WIP. I'm currently resolving a couple of issues and getting everything ready. Docs are incomplete and I'm often pushing updates. Wait a week or so and it should be ready to use.
 
-<h3 align="left">Support:</h3>
-<p><a href="https://www.buymeacoffee.com/idevelopthings"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="idevelopthings" /></a></p><br><br>
+## Envuso framework
+
+Envuso is a backend framework focusing building apis using [Fastify](https://www.fastify.io/) and [MongoDB](https://www.mongodb.com/) support.
 
 
-<p>
-  <img src="https://github-profile-trophy.vercel.app/?username=idevelopthings" alt="idevelopthings" />
-</p>
+## Credits:
+
+- [Inversify Express Utils](https://github.com/inversify/inversify-express-utils)
+We used inversify express utils in a setup without fastify, which was very barebones but enjoyable. We used this as a small starting point,
+converting it to fastify and re-writing a lot of it, to fix any pain points we had.
+- [MongoDB Typescript](https://github.com/aljazerzen/mongodb-typescript) 
+We used mongodb-typescript as it was a nice starting point for mongo implementation with class transformer
