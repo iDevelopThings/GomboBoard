@@ -1,4 +1,5 @@
 import {session} from "$app/stores";
+import {Api} from "api-utilities";
 import {UserModel} from "../Modules/User/Model/UserModel";
 
 export class Auth {
@@ -25,6 +26,9 @@ export class Auth {
 	static setSessionValues(sessionVals) {
 		this.authedUser = sessionVals.user ? UserModel.create(sessionVals.user as object) : null;
 		this.token      = sessionVals.token ? sessionVals.token : null;
+
+		if (this.token)
+			Api.setAuthorizationToken(this.token, 'Bearer');
 	}
 
 	static check() {

@@ -1,3 +1,4 @@
+import {Api} from "api-utilities";
 import {Http} from "../../../Services/Api/Http";
 import {BoardModel} from "../Model/BoardModel";
 
@@ -16,9 +17,9 @@ export class BoardApi {
 	}
 
 	static async list(): Promise<BoardModel[]> {
-		const response = await Http.get('/boards');
+		const response = await Api.toMany(BoardModel).get('/boards');
 
-		return BoardModel.create(response as any[]);
+		return response.get();
 	}
 
 

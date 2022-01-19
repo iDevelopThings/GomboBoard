@@ -1,5 +1,5 @@
 import {IsMongoId, IsOptional, IsString, MinLength} from "class-validator";
-import {DataTransferObject, dto} from "../../../Services/ClassDataTransferObjects";
+import {DataTransferObject, dto} from "api-utilities";
 import {SuggestionsApi} from "../Api/SuggestionsApi";
 
 @dto(SuggestionModel)

@@ -27,7 +27,6 @@
 	import {SuggestionsApi} from "../../../../Modules/Suggestions/Api/SuggestionsApi";
 	import {SuggestionModel} from "../../../../Modules/Suggestions/Model/SuggestionModel";
 	import {suggestions} from "../../../../Modules/Suggestions/SuggestionsState";
-	import {ValidationErrors} from "../../../../Services/ClassDataTransferObjects/ValidationErrors";
 
 	let suggestion: SuggestionModel = SuggestionModel.create({
 		boardId : $page.params.id
@@ -50,9 +49,9 @@
 			goto(`/boards/${suggestion.boardId}`);
 
 		} catch (error) {
-			if (error instanceof ValidationErrors) {
-				errors = error.validationErrorsFormatted;
-			}
+//			if (error instanceof ValidationErrors) {
+//				errors = error.validationErrorsFormatted;
+//			}
 		}
 
 		disabled = false;

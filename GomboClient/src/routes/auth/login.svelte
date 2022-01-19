@@ -25,7 +25,7 @@
 	import FormGroup from '../../Components/FormGroup.svelte';
 	import {TempUserModel} from "../../Modules/User/Model/TempUserModel";
 	import {Http} from "../../Services/Api/Http";
-	import {ValidationErrors} from "../../Services/ClassDataTransferObjects/ValidationErrors";
+//	import {ValidationErrors} from "../../Services/ClassDataTransferObjects/ValidationErrors";
 
 	const user: TempUserModel = TempUserModel.create({
 		//		email    : '',
@@ -54,14 +54,14 @@
 			window.location = '/dashboard';
 
 		} catch (error) {
-			if (error instanceof ValidationErrors) {
-				errors = error.validationErrorsFormatted;
-				return;
-			}
-			if (error?.response?.status === 422) {
-				errors = error?.response?.data?.data;
-				return;
-			}
+			//if (error instanceof ValidationErrors) {
+			//	errors = error.validationErrorsFormatted;
+			//	return;
+			//}
+			//if (error?.response?.status === 422) {
+			//	errors = error?.response?.data?.data;
+			//	return;
+			//}
 		} finally {
 			disabled = false;
 		}

@@ -21,7 +21,7 @@
 	import {BoardApi} from "../../Modules/Boards/Api/BoardApi";
 	import {boards} from "../../Modules/Boards/BoardState";
 	import {BoardModel} from "../../Modules/Boards/Model/BoardModel";
-	import {ValidationErrors} from "../../Services/ClassDataTransferObjects/ValidationErrors";
+//	import {ValidationErrors} from "../../Services/ClassDataTransferObjects/ValidationErrors";
 
 	let title                             = '';
 	let disabled: boolean                 = false;
@@ -40,9 +40,9 @@
 
 			goto(`/boards/${board._id}`);
 		} catch (error) {
-			if (error instanceof ValidationErrors) {
-				errors = error.validationErrorsFormatted;
-			}
+//			if (error instanceof ValidationErrors) {
+//				errors = error.validationErrorsFormatted;
+//			}
 		}
 
 		disabled = false;

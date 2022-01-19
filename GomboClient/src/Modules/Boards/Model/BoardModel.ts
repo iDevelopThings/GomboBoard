@@ -1,5 +1,5 @@
+import {DataTransferObject, dto} from "api-utilities";
 import {IsOptional, IsString, MinLength} from "class-validator";
-import {DataTransferObject, dto} from "../../../Services/ClassDataTransferObjects";
 
 @dto(BoardModel)
 export class BoardModel extends DataTransferObject<BoardModel> {

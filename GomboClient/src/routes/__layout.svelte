@@ -9,9 +9,13 @@
 <script lang="ts">
 	import "../app.css";
 	import {session} from "$app/stores";
+	import {Api, DataTransferObjectManager} from "api-utilities";
 
 	import Navigation from "../Components/Navigation.svelte";
 	import {Auth} from "../Services/Auth";
+
+	DataTransferObjectManager.initiate();
+	Api.configure({baseUrl : 'http://127.0.0.1:8081'});
 
 	Auth.initiate($session);
 </script>

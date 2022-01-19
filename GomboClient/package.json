@@ -36,6 +36,7 @@
   },
   "type": "module",
   "dependencies": {
+    "api-utilities": "^0.0.2-1",
     "cookie": "^0.4.1",
     "svelte-simple-modal": "^1.0.3"
   }
